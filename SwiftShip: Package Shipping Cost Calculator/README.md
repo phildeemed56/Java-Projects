@@ -28,9 +28,13 @@ Divide the cubic size by 166 to determine the dimensional weight in pounds, roun
 **Review and Finalize:** After entering all package details and any applicable discount codes, the program will display:
 
 Total number of packages to ship
+
 Subtotal before any discounts
+
 Frequent shipper discount (if applied)
+
 Bulk package discount (if applied)
+
 Grand total
 
 **Sample Output**
