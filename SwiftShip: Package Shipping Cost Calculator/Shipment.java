@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.text.DecimalFormat;
 
 //Author: Philip Mensah
-//Purpose: Program to compute the cost of shipping packages.
+//Purpose: Program to compute the cost of shipping packages for SwiftShip company.
 
 public class Shipment {
 
