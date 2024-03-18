@@ -1,10 +1,10 @@
-package edu.unlv.mis768.labwork7;
-
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//Author: Philip Mensah
+//Purpose: The program is used to calculate the Grade Point Average of students and generates a transcript outlining the Course Names, Course Credits, Letter Grades,
+//and the Grade Point Average.
 
 public class GradePointAverage {
 
