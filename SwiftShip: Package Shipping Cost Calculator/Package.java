@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 //Author: Philip Mensah
-//Purpose: Program to compute the cost of shipping packages.
+//Purpose: Program to compute the cost of shipping packages for SwiftShip Company.
 
 //Package class represents each individual package
 public class Package {
