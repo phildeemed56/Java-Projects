@@ -23,15 +23,26 @@ Upon completion of course entry, the program will present your GPA, rounded to t
 Our system translates letter grades into a standardized point scale, ensuring accuracy and consistency in GPA calculation. Here's the conversion scheme:
 
 A+ and A: 4.0
+
 A-: 3.7
+
 B+: 3.3
+
 B: 3.0
+
 B-: 2.7
+
 C+: 2.3
+
+
 C: 2.0
+
 C-: 1.7
+
 D+: 1.3
+
 D: 1.0
+
 D- and below: 0
 
 **Transcript Generation:**
