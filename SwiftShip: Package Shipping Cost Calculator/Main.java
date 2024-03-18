@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 //Author: Philip Mensah
-//Purpose: Program to compute the cost of shipping packages at a parcel service store
+//Purpose: Program to compute the cost of shipping packages.
 
 public class Main {
     public static void main(String[] args) {
