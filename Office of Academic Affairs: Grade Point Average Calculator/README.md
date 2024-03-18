@@ -1,6 +1,6 @@
 **Office of Academic Affairs: Grade Point Average Calculator**
 
-Welcome to the Grade Point Average (GPA) Calculator developed by the Department of Academic Affairs. This tool is specifically designed to assist our students in efficiently calculating their GPAs based on the courses they have completed.
+Welcome to the Grade Point Average (GPA) Calculator developed by the Department of Academic Affairs. This tool, programmed in Java, is specifically designed to assist our students in efficiently calculating their GPAs based on the courses they have completed.
 
 **How to Utilize:**
 
