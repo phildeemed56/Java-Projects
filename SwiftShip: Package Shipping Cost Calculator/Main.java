@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 //Author: Philip Mensah
-//Purpose: Program to compute the cost of shipping packages.
+//Purpose: Program to compute the cost of shipping packages for SwiftShip company.
 
 public class Main {
     public static void main(String[] args) {
