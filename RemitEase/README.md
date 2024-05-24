@@ -48,7 +48,7 @@ The project is meticulously structured into six distinct packages, each serving 
 - **Update**: Supports dynamic updates of recipient details and transaction parameters.
 - **Delete**: Implements stringent data deletion protocols for secure account and data removal.
 
-## Technologies Used
+**Technologies Used**
 
 - **Programming Language**: Java
 - **Database**: MySQL hosted on AWS RDS
@@ -56,18 +56,19 @@ The project is meticulously structured into six distinct packages, each serving 
 - **Testing**: JUnit for unit tests
 - **Development Tools**: IntelliJ IDEA, Git
 
-## Setup the Database:
+**Setup the Database:**
 
 Create a MySQL database instance on AWS RDS.
 Configure the database connection parameters in projectfiles.app.Application.
 
 
-## Build the Project:
+**Build the Project:**
 
 Open the project in IntelliJ IDEA.
 Ensure that all dependencies are resolved.
 
-## Run the Application:
+
+**Run the Application:**
 
 Execute the main class in projectfiles.app.
 
@@ -91,12 +92,12 @@ Update recipient information through the recipient history feature.
 
 Securely delete user accounts and associated data via the account settings.
 
-**Contributing**
+## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code adheres to the project’s coding standards and includes appropriate tests.
 
 
-**Contact**
+## Contact
 
 Philip Mensah
 
