@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectfiles.control.WelcomePageController">
+   <children>
+      <VBox fx:id="welcomePageVBox" prefHeight="500.0" prefWidth="700.0">
+         <children>
+            <Label fx:id="welcomeToRemitEaseLabel" text="Welcome to RemitEase">
+               <font>
+                  <Font size="35.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="160.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="yourNumberOneChoiceLabel" text="Your Number One Choice: Send with Ease, Remit with Confidence.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="80.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="trustedPartnerLabel" text="RemitEase is your trusted partner for global money remittance.">
+               <VBox.margin>
+                  <Insets left="30.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="swiftlyAndSafelyLabel" text="We ensure that your hard-earned money reaches its destination swiftly and safely. ">
+               <VBox.margin>
+                  <Insets left="30.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="sendWithConfidenceLabel" text="Start sending money globally with confidence!">
+               <VBox.margin>
+                  <Insets left="30.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="alreadyRegisteredUserLabel" text="Already Registered User?">
+               <VBox.margin>
+                  <Insets left="30.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" maxWidth="100.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" text="Login">
+               <VBox.margin>
+                  <Insets left="70.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Label fx:id="newUserLabel" text="New User?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="500.0" top="-75.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="signUpButton" maxWidth="100.0" mnemonicParsing="false" onAction="#handleSignUpButtonAction" text="Sign up">
+               <VBox.margin>
+                  <Insets left="500.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

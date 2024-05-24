@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectfiles.control.SendMoneyController">
+   <children>
+      <VBox fx:id="sendMoneyVBox" prefHeight="500.0" prefWidth="700.0">
+         <children>
+            <Label fx:id="sendMoneyLabel" text="Send Money">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="250.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="newRecipientButton" mnemonicParsing="false" onAction="#handleNewRecipientButtonAction" prefWidth="200.0" text="New Recipient">
+               <VBox.margin>
+                  <Insets left="220.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="previousRecipientsButton" mnemonicParsing="false" onAction="#handlePreviousRecipientsButtonAction" prefWidth="200.0" text="Previous Recipients">
+               <VBox.margin>
+                  <Insets left="220.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#handleBackButtonAction" prefWidth="70.0" text="Back">
+               <VBox.margin>
+                  <Insets left="20.0" top="250.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
