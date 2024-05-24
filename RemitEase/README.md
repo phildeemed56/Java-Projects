@@ -11,7 +11,6 @@ RemitEase is a sophisticated Java-based application designed to facilitate seaml
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Project Structure
